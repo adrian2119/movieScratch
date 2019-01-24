@@ -63,7 +63,10 @@ ul {
     display: inline;
 }
 
+li {
+    padding-left: 20px;
+}
+
 label {
     display: inline;
-    height: 2em;
 }
