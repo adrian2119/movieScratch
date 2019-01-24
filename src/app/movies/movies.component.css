@@ -1,0 +1,69 @@
+.individualMovie {
+    display: inline-flex;
+}
+
+.poster {
+    /* width: 100%; */
+    height: 50%;
+    background-color: hotpink;
+    display: inline-table;
+    vertical-align: top;
+}
+
+.details {
+    width: 50%;
+    /* height: auto; */
+    display: inline-block;
+    width: 150px;
+
+}
+.parentalRating {
+    width: 100%;
+    /* height: 1em; */
+    display: inline-block;
+    background-color: aqua;
+}
+
+.genres {
+    width: 100%;
+    /* height: 1em; */
+    display: inline-block;
+    background-color: lightblue;
+}
+
+.directors {
+    width: 100%;
+    /* height: 1em; */
+    display: inline-block;
+    background-color: chartreuse;
+}
+
+.actors {
+    width: 100%;
+    /* height: 1em; */
+    display: inline-block;
+    background-color: coral;
+}
+
+.producers {
+    width: 100%;
+    /* height: 1em; */
+    display: inline-block;
+    background-color: deeppink;
+}
+
+
+footer {
+    margin: 10px;
+    background-color: cornflowerblue;
+    height: 150px;
+}
+
+ul {
+    display: inline;
+}
+
+label {
+    display: inline;
+    height: 2em;
+}

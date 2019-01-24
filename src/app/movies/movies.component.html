@@ -1,0 +1,40 @@
+<div class= "individualMovie" *ngFor="let movie of movies">
+    <div class="poster">
+        <label>Poster</label>
+    </div>
+    <div class="details">
+        <div class="title">
+            <label>Movie:</label> {{movie.title}}
+        </div>
+        <div class="parentalRating">
+            <label>Rating:</label> {{movie.parentalRating}}
+        </div>
+        <div class="genres">
+            <label>Genres:</label>
+            <ul>
+                <li *ngFor="let genre of movie.genres">{{genre}}</li>
+            </ul>
+        </div>
+        <div class="actors">
+            <label>Actors:</label>
+            <ul>
+                <li *ngFor="let actor of movie.actors">{{actor}}</li>
+            </ul>
+        </div>
+        <div class="directors">
+            <label>Directors:</label>
+            <ul>
+                <li *ngFor="let director of movie.directors">{{director}}</li>
+            </ul>
+        </div>
+        <div class="producers">
+            <label>Producers:</label>
+            <ul>
+                <li *ngFor="let producer of movie.producers">{{producer}}</li>
+            </ul>{{producers}}
+        </div>
+    </div>
+</div>
+<footer>
+Some details
+</footer>
