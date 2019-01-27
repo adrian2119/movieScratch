@@ -78,17 +78,6 @@ label {
     display: inline;
 }
 
-#focusedMovie {
-    float: right;
-    width: 400px;
-    background-color: gainsboro;
-}
-
-#searchDetails {
-    background-color: lightgreen;
-    width: 220px;
-}
-
 label {
     display: inline-block;
 }
