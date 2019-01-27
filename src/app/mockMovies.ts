@@ -15,7 +15,7 @@ export const MOVIES: Movie[] = [
         genres: ['Horror', 'Crime'],
         directors: ['Steven Spielberg','Numan Ass'],
         producers: ['Steven Spielberg', 'Johny'],
-        actors: ['Someone famous', 'Somebody Else', 'A Dickhead']
+        actors: ['Someone famous', 'Somebody Else', 'A Dic. Johnson']
     },
     {
         title: 'Crap',

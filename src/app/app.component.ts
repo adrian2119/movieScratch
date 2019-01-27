@@ -7,5 +7,5 @@ import { from } from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'movieDatabaseScratch';
+  title = 'Adrian\'s Movie Database';
 }

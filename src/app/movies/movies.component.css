@@ -42,6 +42,7 @@
     width: 100%;
     /* height: 1em; */
     display: inline-block;
+    /* padding-left: 20px; */
     background-color: coral;
 }
 
@@ -65,8 +66,15 @@ ul {
 
 li {
     padding-left: 20px;
+    list-style-type: none;
 }
 
 label {
     display: inline;
+}
+
+section {
+    float: right;
+    width: 400px;
+    background-color: gainsboro;
 }
