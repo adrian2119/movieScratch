@@ -1,44 +1,52 @@
+<div id="searchDetails">
+    Title: <input type="text" name="txtSearchTitle">
+    Rating: <input type="text" name="txtSearchRating">
+    Genres: <input type="text" name="txtSearchGenres">
+    Actors: <input type="text" name="txtSearchActors">
+    Directors: <input type="text" name="txtSearchDirector">
+    Producers: <input type="text" name="txtSearchProducer">
+</div>
 <div class= "individualMovie" *ngFor="let movie of movies">
     <div class="poster">
-        <label>Poster</label>
+        Poster
     </div>
-    <div class="details">
-        <div class="title">
-            <label>Movie:</label> {{movie.title}}
+    <div class="summaryDetails">
+        <div class="summaryTitle">
+            Movie: {{movie.title}}
         </div>
-        <div class="parentalRating">
-            <label>Rating:</label> {{movie.parentalRating}}
+        <div class="summaryParental">
+            Rating: {{movie.parentalRating}}
         </div>
-        <div class="genres">
-            <label>Genres:</label>
+        <div class="summaryGenres">
+            Genres:
             <ul>
                 <li *ngFor="let genre of movie.genres">{{genre}}</li>
             </ul>
         </div>
-        <div class="actors">
-            <label>Actors:</label>
+        <div class="summaryActors">
+            Actors:
             <ul>
                 <li *ngFor="let actor of movie.actors">{{actor}}</li>
             </ul>
         </div>
-        <div class="directors">
-            <label>Directors:</label>
+        <div class="summaryDirectors">
+            Directors:
             <ul>
                 <li *ngFor="let director of movie.directors">{{director}}</li>
             </ul>
         </div>
-        <div class="producers">
-            <label>Producers:</label>
+        <div class="summaryProducers">
+            Producers:
             <ul>
                 <li *ngFor="let producer of movie.producers">{{producer}}</li>
-            </ul>{{producers}}
+            </ul>
         </div>
-    </div>
-</div>
-<section>
+    </div> <!-- end of summaryDetails class div -->
+</div> <!-- end of individualMovie class div-->
+<div id="focusedMovie">
     Some text
 
-</section>
+</div> <!-- end of focusedMovie id tagged div -->
 <footer>
 Some details
 </footer>
